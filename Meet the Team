@@ -22,38 +22,34 @@
             </header>
                         
         <main class ="main-content">
-            <section id ="about" class="content-item">
-            <h2>About Me</h2>
-                <p>"Hello, I'm Alex Styles and this is about me." </p>
-                <p> I love coding and learning new things. My skills include CSS, C# HTML, Java, Javascript, and Python.</p>
-        </section>
-        
-        <section id ="portfolio" class="content-item">
-                <h2>Portfolio</h2>
-                <p>"Here is my portfolio."</p>
-
-                    <div class="portfolio-grid">
-
+            <section id ="team" class="content-item">
+                <h2>Meet the Team</h2>                 
+            </section>
+            
+            <div class="portfolio-grid">
                     <div class="project-card">
-                     <h3>Computer and AI</h3>
-                        <p>Project thumbnail + short description.</p>
-                        <button class="btn">View Details</button>
+                     <h3>Mikala Goodloe</h3>
+                        <p>Role/ Title </P>
+                        <p> Abotu Me </p>
+                        <p>What I did </p>
                     </div>
 
-
                     <div class="project-card">
-                    <h3>Grocery Store App</h3>
-                    <p>Project thumbnail + short description.</p>
-                    <button class="btn">View Details</button>
+                        <h3>Member 2</h3>
+                         <p>Role/ Title </P>
+                        <p> Abotu Me </p>
+                        <p>What I did </p>
+                    </div>
 
                     </div>
 
                     <div class="project-card">
-                    <h3>Workout Planner</h3>
-                    <p>Project thumbnail + short description.</p>
-                    <button class="btn">View Details</button>
+                    <h3>Member 3</h3>
+                         <p>Role/ Title </P>
+                        <p> Abotu Me </p>
+                        <p>What I did </p>
                     </div>
-                </div>
+               </div>
         </section>
             
         <section id ="contact" class="content-item">
