@@ -38,7 +38,7 @@ body {
    HEADER SECTION
    ========================================= */
 .logo img {
-    height: 40px; /* adjust to match their size */
+    height: 100px; /* adjust to match their size */
     width: auto;
     display: block;
 }
@@ -64,7 +64,7 @@ header ul {
 
 header a {
     text-decoration: none;
-    color: var(--color-light);
+    color: #e67e22ff;
     font-size: var(--scale-md);
 }
 
