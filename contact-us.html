@@ -3,7 +3,7 @@
         <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Meet the Team</title>
+            <title>Alex Styles Portfolio</title>
             <link rel="stylesheet" href="styles.css">
         </head>
 
@@ -20,48 +20,63 @@
                     <ul> 
                         <li><a href="#about" data-tooltip="Learn more about Us">Who We Are</a></li>
                         <li><a href="#projects" data-tooltip="View Our Work">Projects</a></li>
-                        <li><a href="#contact" data-tooltip="Get in touch">Contact</a></li>
-                        <li><a href="#Meet the Team">Team</a></li>
+                        <li><a href="#contact-us" data-tooltip="Get in touch">Contact</a></li>
+                        <li><a href="ourTeam.html"> data-tooltip="Team"></a></li>
 
                     </ul>
                 </nav>
             </header>
              <!-- End Navigation --> 
-                        
-        <main class ="main-content">
-            <section id ="team" class="content-item">
-                <h2>Meet the Team</h2>                 
-            </section>
             
-            <div class="portfolio-grid">
+            <section class="intro safe-vibes">
+                <h1>Let's Have SafeVibes</h1>
+                <p>Talk about who you are here and why you're doing this.</p>
+                <button class="btn">Join the Us</button>
+            </section>
+
+
+        <main class ="main-content">
+            <section id="about" class="content-item safe-vibes">
+                    <h2>Why Choose Us</h2>
+                    <p>Talk about who you are here and why you are doing this.</p>
+                </section>
+        
+            <section id="USreasons" class="content-item why-us">
+                <h2>Reasons to Choose SafeVibes</h2>
+                 <div class="portfolio-grid">
+
                     <div class="project-card">
-                     <h3>Mikala Goodloe</h3>
-                        <p>Role/ Title </P>
-                        <p> Abotu Me </p>
-                        <p>What I did </p>
+                     <h3>Reason 1</h3>
+                        <p>Project thumbnail + short description.</p>
+                        <button class="btn">View Details</button>
+                    </div>
+
+
+                    <div class="project-card">
+                    <h3>Reason 2</h3>
+                    <p>Project thumbnail + short description.</p>
+                    <button class="btn">View Details</button>
+
                     </div>
 
                     <div class="project-card">
-                        <h3>Member 2</h3>
-                         <p>Role/ Title </P>
-                        <p> Abotu Me </p>
-                        <p>What I did </p>
+                    <h3>Reason 3 </h3>
+                    <p>Project thumbnail + short description.</p>
+                    <button class="btn">View Details</button>
                     </div>
-
-                    </div>
-
-                    <div class="project-card">
-                    <h3>Member 3</h3>
-                         <p>Role/ Title </P>
-                        <p> Abotu Me </p>
-                        <p>What I did </p>
-                    </div>
-               </div>
+                </div>
         </section>
             
+        <section id ="contact" class="content-item">
+            <h3>Contact</h3>
+            <p>Get in touch with me!</p>
+                <form> 
+                    <input type="text" name="name" placeholder="Your name" />
+                </form> 
+        </section>
     </main>
             <footer>
-                <p>&copy; 2026 Alex Styles</p>  
+                <p>&copy; SafeVibes</p>  
                 </footer>  
     <div id="project-modal" class="modal">
         <div class="modal-content">
