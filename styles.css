@@ -62,6 +62,49 @@ header a {
     color: var(--color-light);
     font-size: var(--scale-md);
 }
+/* =========================================
+   Intro LAYOUT
+   ========================================= */
+
+.intro{
+  order: 1;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 4rem 0 2rem 0;
+}
+
+.intro h1 {
+  font-size: var(--scale-xxl);
+  margin-bottom: 1rem;
+  color: var(--color-accent);
+}
+
+.intro p {
+  font-size: var(--scale-lg);
+  max-width: 600px;
+  margin-bottom: 2rem;
+}
+
+.intro .btn {
+  padding: 0.75rem 1.5rem;
+  font-size: var(--scale-md);
+  background-color: var(--color-accent);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.intro .btn:hover {
+  background-color: #ff7f50;
+}
+/* =========================================
+   End of Intro LAYOUT
+   ========================================= */
 
 /* =========================================
    MAIN LAYOUT
@@ -72,7 +115,23 @@ header a {
     margin: 2rem 0;
 }
 
+/* Center the SafeVibes section visually */
+.safe-vibes {
+    order: 2; /* Ensures it's in the middle if order is used */
+    background: #1a3b5d; /* Slightly different shade for emphasis */
+    transform: scale(1.05); /* Slight enlargement */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Soft glow */
+    display: center;
+    align-items: center;
+}
+
+
+.content-item.safe-vibes {
+    order: 2;
+}
+
 .content-item {
+    order:3;
     flex: 1;
     background: #0d2e4d;
     padding: 1.5rem;
@@ -83,6 +142,9 @@ header a {
     color: var(--color-light);
     border: 1px solid var(--color-muted);
 }
+
+
+
 /* =========================================
    TEXT ELEMENTS
    ========================================= */
