@@ -35,9 +35,15 @@ body {
 }
 
 /* =========================================
-   HEADER
+   HEADER SECTION
    ========================================= */
-header {
+.logo img {
+    height: 40px; /* adjust to match their size */
+    width: auto;
+    display: block;
+}
+
+   header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -62,8 +68,9 @@ header a {
     color: var(--color-light);
     font-size: var(--scale-md);
 }
+
 /* =========================================
-   Intro LAYOUT
+   Here Section To SafeVibes LAYOUT
    ========================================= */
 
 .intro{
@@ -144,6 +151,16 @@ header a {
 }
 
 
+/* =========================================
+   WHY US LAYOUTS AND ELEMENTS
+   ========================================= */
+
+   .why-us {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 2rem;
+    
 
 /* =========================================
    TEXT ELEMENTS
