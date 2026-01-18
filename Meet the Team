@@ -9,17 +9,24 @@
 
         <body>
             <header>
-                <h1>Alex Styles Portfolio</h1>
+
+                <!--Main Logo--> 
+                <a href="/" class="logo">
+                    <img src="SafeVibes/SafeVibesLogo.png" alt="SafeVibes Logo">
+                </a>
+
+                <!--Navigation --> 
                 <nav>
                     <ul> 
-                        <li><a href="#about" data-tooltip="Learn more about Alex">About Me</a></li>
-                        <li><a href="#portfolio" data-tooltip="View Alex's work">Portfolio</a></li>
+                        <li><a href="#about" data-tooltip="Learn more about Us">Who We Are</a></li>
+                        <li><a href="#projects" data-tooltip="View Our Work">Projects</a></li>
                         <li><a href="#contact" data-tooltip="Get in touch">Contact</a></li>
-                        <li><a href="aboutme.html">About The test page, KalaPage Only</a></li>
+                        <li><a href="aboutme.html">Team</a></li>
 
                     </ul>
                 </nav>
             </header>
+             <!-- End Navigation --> 
                         
         <main class ="main-content">
             <section id ="team" class="content-item">
