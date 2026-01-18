@@ -59,13 +59,6 @@
                </div>
         </section>
             
-        <section id ="contact" class="content-item">
-            <h3>Contact</h3>
-            <p>Get in touch with me!</p>
-                <form> 
-                    <input type="text" name="name" placeholder="Your name" />
-                </form> 
-        </section>
     </main>
             <footer>
                 <p>&copy; 2026 Alex Styles</p>  
