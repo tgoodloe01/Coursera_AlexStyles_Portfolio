@@ -6,8 +6,8 @@
     --font-heading: "Poppins", "Segoe UI", sans-serif;
     --font-body: "Inter", "Roboto", sans-serif;
 
-    --color-bg: #0f172a;
-    --color-accent: #3b82f6;
+    --color-bg: #ffffff;
+    --color-accent: #e67e22ff;
     --color-light: #f1f5f9;
     --color-text: #e2e8f0;
     --color-muted: #94a3b8;
@@ -74,7 +74,7 @@ header a {
 
 .content-item {
     flex: 1;
-    background: #1e293b;
+    background: #0d2e4d;
     padding: 1.5rem;
     border-radius: 8px;
     text-align: center;
@@ -116,7 +116,7 @@ ul li a {
   padding: 1rem;
   border-radius: 8px;
   border: 1px solid var(--color-muted);
-  background: #0b1220;
+  background: lightgrey;
   color: var(--color-light);
   text-decoration: none;
   animation: fadeInUp 0.8s ease forwards;
